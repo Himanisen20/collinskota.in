@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collins.kota</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+   
+    <!-- owl carasoul link -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.green.min.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+   
+</head>
+<body>
+    <!-- header section -->
+    <header class="section-navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="index.html">
+                <img src="./images/collins,logo.png" class="animate__animated  wow animate__fadeInDown" alt="collins logo" width="30%" height="auto" >
+            </a>
+            </div>
+            <nav class="navbar" >
+                <input type="checkbox" id="click">
+            <label for="click" class="menu-btn" >
+           <img  id="bar" src="images/bars-solid.svg"></label>
+               
+                <ul>
+                   <li class="nav-item"><a class="nav-link" href="#hero-page" target="">Home</a></li>
+                   <li class="nav-item"><a class="nav-link" href="about.html" target="_blank">About</a></li>
+                   <li class="nav-item"><a class="nav-link" href="service.html" target="_blank">Service</a></li>
+                   <li class="nav-item"><a class="nav-link" href="Course.html" target="_blank">Course</a></li>
+                   <li class="nav-item"><a class="nav-link" href="gallery-collins.html" target="_blank">Gallery</a></li>
+                   <li class="nav-item"><a class="nav-link" href= "#section-contact-homepage" target="">Contact</a></li> 
+                </ul>
+            </nav>
+        </div>
+    </header>
+     <!-- header section -->
+
+    <!-- hero section -->
+    <main>
+        <div class="section-hero" id="hero-page">
+            <div class="container grid grid-two--cols">
+                        <div class="section-hero-content">
+                            <p class="hero-subheading animate__animated wow animate__fadeInDown" >MAKE YOUR DREAMS TRUE</p>
+
+                            <h1 class="hero-heading animate__animated wow animate__fadeInDown">Unlock the Power of English <br> Speak Confidently, Speak Fluently!</h1>
+
+                            <p class="hero-para animate__animated  wow animate__fadeInDown"> </p>
+
+                            <div class="hero-btn   animate__animated wow animate__fadeInLeft">
+                                <a href="#" class="btn btn--white">Sign In</a>
+                            </div>
+
+                        </div>
+                        <div class="section-hero-image  animate__animated wow animate__lightSpeedInRight">
+                         <figure >
+                            <div class="owl-carousel owl-theme img" id="one">
+                                <div class="item1"> <img src="./images/collins1.gif"  alt="main-pic"></div>
+                                <div class="item1"><img src="./images/collins2.gif"  alt="main-pic"></div>
+                               <div class="item1"> <img src="./images/collins3.gif"  alt="main-pic"></div>
+                               <div class="item1"> <img src="./images/collins4.gif"  alt="main-pic"></div>
+                               <div class="item1"> <img src="./images/collins5.gif"  alt="main-pic"></div>
+                            </div>
+                         </figure>   
+                        </div>
+
+            </div>
+        </div>
+
+        <!-- wave-section -->
+        <div class="custom-shape-divider-bottom-1731768070 ">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+            </svg>
+        </div>
+
+       
+    </main>
+    <script>
+        $(document).ready(function(){
+            var one = $("#one");
+            one.owlCarousel({
+                loop:true,
+               dots:false,
+                nav:false,
+               autoplay:true,
+               autoplayTimeout:3000,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:1
+                    },  
+                    1000:{
+                        items:1
+                    }
+                }
+            })
+        })
+    </script>
+     <!-- hero section-->
+
+     <!-- About section -->
+     <section class="section-about animate__animated  wow animate__fadeInUp">
+<div class="container">
+    <h2 class="section-heading">ABOUT COLLINS</h2>
+    <p class="section-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem </p>
+</div>
+
+<div class="container  grid grid-three--cols">
+            <div class="about-div   animate__animated wow animate__rotateInDownLeft">
+                    <div class="icon">
+                        <img src="./images/digital.png" alt="icon1">
+                    </div>
+                    <h3 class="section-common--title">Digital<br> Classroom</h3>
+                    <p>Create an engaging and flexible learning enviroment for student by smart class</p>
+            </div>
+
+            <div class="about-div animate__animated wow animate__rotateInDownLeft">
+                <div class="icon">
+                    <img src="./images/enviroment.webp" alt="icon1">
+                </div>
+                <h3 class="section-common--title"> Best<br> Enviroment</h3>
+                <p>We use real-world conversations, role-plays, and practical exercises to make learning fun and effective. </p>
+          </div>
+
+          <div class="about-div animate__animated wow animate__rotateInDownLeft">
+            <div class="icon">
+                <img src="./images/teacher.png" alt="icon1">
+            </div>
+            <h3 class="section-common--title">Experienced Instructors</h3>
+            <p> Learn from highly educated glocal speakers and experienced trainers</p>
+          </div>
+</div>
+     </section>
+     <!-- About section -->
+
+     <!-- services section -->
+     <section class="section-destination animate__animated wow animate__fadeInUp">
+             <div class="container-head">
+                <h2 class="section-heading">OUR SERVICES</h2>
+                <p class="section-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem </p>
+             </div>
+             <div class="container grid grid-three--cols">
+                  <div class="course-div animate__animated wow  animate__flipInX">
+                    <div class="icon">
+                        <img src="./images/attendece2.svg"> 
+                    </div>
+                    <h3 class="section-common--title"> Online Attendence</h3>
+                    <p>Regular online Attendence and immideite information to parents regarding students absence,</p>
+                  </div> 
+
+                  <div class="course-div animate__animated wow  animate__flipInX">
+                    <div class="icon">
+                        <img src="./images/test.avif"> 
+                    </div>
+                    <h3 class="section-common--title">Online / Offline Test</h3>
+                    <p>Weekly offline - online test and regular drilling according to the topics </p>
+                  </div>
+
+                  <div class="course-div animate__animated wow  animate__flipInX">
+                    <div class="icon">
+                        <img src="./images/classroom.jfif"> 
+                    </div>
+                    <h3 class="section-common--title"> Online/ Offline Classes</h3>
+                    <p>We provide classroom program and online class according to requirement of students </p>
+                  </div>
+
+                  <div class="course-div animate__animated wow  animate__flipInX">
+                    <div class="icon">
+                        <img src="./images/notes.jfif"> 
+                    </div>
+                    <h3 class="section-common--title">Notes/PDF</h3>
+                    <p>We provide books notes and PDF that makes study easier and smooth </p>
+                  </div>
+
+                  <div class="course-div animate__animated wow  animate__flipInX">
+                    <div class="icon">
+                        <img src="./images/PD.jfif"> 
+                    </div>
+                    <h3 class="section-common--title">Personality development</h3>
+                    <p>Sessions for grooming personality are conducted here with english language training</p>
+                  </div>
+
+                  <div class="course-div animate__animated wow  animate__flipInX">
+                    <div class="icon">
+                        <img src="./images/interview.jfif"> 
+                    </div>
+                    <h3 class="section-common--title">Training for Interview</h3>
+                    <p>We prepare you for all kind of government, private , domestic and MNC companies' interviews</p>
+                  </div>
+             </div>
+     </section>
+      <!-- service section -->
+
+      <!-- course--section  -->
+        <section class="section-why--choose animate__animated wow animate__fadeInUp">
+        <div class="container-head">
+           <h2 class="section-heading">OUR COURSES</h2>
+           <p class="section-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem </p>
+        </div>
+            <!-- left side content -->
+        <div class="container  grid grid-three--cols  ">
+               
+            <div class="choose-left--div text-align--left ">
+
+                         <div class="why-choose--div animate__animated wow animate__fadeInLeft">
+                         <p class="common-text--highlight">1</p> 
+                         <h3 class="section-common--title">Spoken English</h3>
+                         <p>Learn english with the best techinques world wide just like STRM/DRM  method and trick vocab/fun learning activities.
+                                 </p>
+                                 <div class="course-btn   animate__animated wow animate__fadeInLeft">
+                                    <a href="#" class="btn btn--white">Buy Course</a>
+                                </div>
+                        </div>
+                        
+                        <div class="why-choose--div animate__animated wow animate__fadeInLeft">
+                            <p class="common-text--highlight">2</p> 
+                            <h3 class="section-common--title">Advance english</h3>
+                            <p>We help you advancing your english skill  by focusing on advance vocabluary complex sentence structures, advance writing techinques,
+                                 reading comprehension, listening and speaking ,grammer mastery
+                                    </p>
+                                    <div class="course-btn   animate__animated wow animate__fadeInLeft">
+                                        <a href="#" class="btn btn--white">Buy Course</a>
+                                    </div>
+                         </div>
+
+                         <div class="why-choose--div animate__animated wow animate__fadeInLeft">
+                            <p class="common-text--highlight">3</p> 
+                            <h3 class="section-common--title">B.A./ M.A. English Literature</h3>
+                            <p>Lectures by execllent faculties provided toppers in universities .
+                                    </p>
+                                    <div class="course-btn   animate__animated wow animate__fadeInLeft">
+                                        <a href="#" class="btn btn--white">Buy Course</a>
+                                    </div>
+                             </div>
+
+                        
+
+             </div>
+
+             <!-- center side content -->
+             <div class="choose-center--div animate__animated wow animate__fadeInUp">
+                <figure>
+                    <img src="./images/study2.png" alt="thapa">
+                </figure>
+             </div>
+
+              <!-- right side content -->
+              <div class="choose-right--div text-align--right animate__animated wow animate__fadeInRight">
+
+                   <div class="why-choose--div animate__animated wow animate__fadeInRight">
+                    <p class="common-text--highlight">4</p> 
+                    <h3 class="section-common--title">International English </h3>
+                    <p>Compelete grammer for IAS, RAS, SSC, BANK, NDA, CDS, Air force and RPSC.</p>
+                                     <div class="course-btn   animate__animated wow animate__fadeInRight">
+                                        <a href="#" class="btn btn--white">Buy Course</a>
+                                    </div>
+                    </div>
+
+                    <div class="why-choose--div animate__animated wow animate__fadeInRight">
+                        <p class="common-text--highlight">5</p> 
+                        <h3 class="section-common--title">Advance Grammer</h3>
+                        <p>We focus on improving english language skill for global audience with an emphasis on understanding accent ,prnounciation(phonix). We master you in listening, speaking, understanding for american and british countries </p>
+                                <div class="course-btn   animate__animated wow animate__fadeInRight">
+                                   <a href="#" class="btn btn--white">Buy Course</a>
+                               </div>
+                    </div> 
+                       
+                         
+                         <div class="why-choose--div animate__animated wow animate__fadeInRight">
+                            <p class="common-text--highlight">6</p> 
+                            <h3 class="section-common--title">11/12 English Literature</h3>
+                            <p> Lecture by Seasoned faculties with weekliy test and good environment and best result.
+                                    </p>
+                                    <div class="course-btn   animate__animated wow animate__fadeInRight">
+                                        <a href="#" class="btn btn--white">Buy Course</a>
+                                    </div>
+                         </div> 
+
+              </div>
+
+            </div>
+            </section>
+      <!--  course--section  -->
+
+      <!-- review section-start -->
+
+      <section class="section-review animate__animated wow animate__fadeInUp">
+        <div class="container">
+           <h2 class="section-heading">REVIEWS</h2>
+           <p class="section-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem </p>
+
+        </div>
+
+           <div class="container grid grid-four--cols"  >
+            <div class="owl-carousel owl-theme" id="two">
+
+                <div class="item">
+            <div class=" course-div animate__animated wow  animate__flipInX">
+                <div class="img">
+                    <img  class="i" src="images/review.jfif"> 
+            </div>
+            <h3 class="section-common--title">NAME</h3>
+            <p>Weekly offline - online test and regular drilling according to the topics </p>
+          </div></div>
+           
+          <div class="item">
+          <div class="course-div animate__animated wow  animate__flipInX">
+            <div class="img">
+                <img  class="i" src="images/review.jfif"> 
+            </div>
+            <h3 class="section-common--title">NAME</h3>
+            <p>Weekly offline - online test and regular drilling according to the topics </p>
+          </div></div>
+
+          <div class="item"> 
+          <div class="course-div animate__animated wow  animate__flipInX">
+            <div class="img">
+                <img  class="i" src="images/review.jfif"> 
+            </div>
+            <h3 class="section-common--title">NAME</h3>
+            <p>Weekly offline - online test and regular drilling according to the topics </p>
+          </div></div>
+
+          <div class="item">
+             <div class="course-div animate__animated wow  animate__flipInX">
+            <div class="img">
+                <img class="i" src="images/review.jfif"> 
+            </div>
+            <h3 class="section-common--title">NAME</h3>
+            <p>Weekly offline - online test and regular drilling according to the topics </p>
+          </div></div>
+                                                                                                                                                            
+          <div class="item">
+          <div class="course-div animate__animated wow  animate__flipInX">
+            <div class="img">
+                <img class="i" src="images/review.jfif"> 
+            </div>
+            <h3 class="section-common--title">NAME</h3>
+            <p>Weekly offline - online test and regular drilling according to the topics </p>
+          </div></div>
+                                                                                                                                                            
+          <div class="item">
+          <div class="course-div animate__animated wow  animate__flipInX">
+            <div class="img">
+                <img class="i"  src="images/review.jfif"> 
+            </div>
+            <h3 class="section-common--title">NAME</h3>
+            <p>Weekly offline - online test and regular drilling according to the topics </p>
+          </div></div>
+
+        </div>
+
+        </div>
+        <div class="review-btn   animate__animated wow animate__fadeInRight">
+            <a href="#" class="btn btn--white">Add your Experience</a>
+        </div>
+   
+    </section>
+     <!-- review section-end  -->
+
+      <!-- middle box -->
+     <div class="section-contact-homepage  animate__animated wow animate__flipInY " id="section-contact-homepage">
+        <div class="container grid grid-two--cols">
+                <div class="contact-content">
+                    <h2 class="content-title">So Don't be late </h2>
+                    <p>lets make a part of COLLINS </p>
+                    <div class="btn">
+                        <a href="contact.html">
+                        Register now
+                        <i class="fa-solid fa-arrow-circle-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-image animate__animated wow animate__zoomIn">
+                    <img src="./images/study.png">
+                </div>
+        </div>
+      </div>
+       <!-- middle box -->
+
+       <!-- footer-section -->
+       <footer>
+             <div class="container grid grid-three--cols animate__animated wow animate__fadeInUp">
+                     <div class="footer-1--div animate__animated wow animate__fadeInUp">
+
+                         <div class="logo-brand">
+                            <img  class="footer-img" src="images/collins,logo.png">
+
+                             <a href="index.html" class="footer-subheading">
+                                 COLLINS INSITITUDE
+                             </a>
+                         </div>
+            
+                         <div class="social-footer--icons">
+                             <a href="#" target="_blank" class="common-text--highlight">
+                              <i class="fa-brands fa-facebook"></i>
+                             </a>
+                             <a href="#" target="_blank" class="common-text--highlight">
+                            <i class="fa-brands fa-instagram"></i>
+                             </a>
+                             <a href="#" target="_blank" class="common-text--highlight">
+                              <i class="fa-brands fa-youtube"></i>
+                             </a>
+                          </div>
+                    </div>
+
+                     <div class="footer-3--div animate__animated wow animate__fadeInUp">
+                        <p class="footer-subheading">blogs</p>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.html">About</a></li>
+                                <li><a href="index.html">Service</a></li>
+                                <li><a href="index.html">Course</a></li>
+                                <li><a href="index.html">Gallary</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-2--div animate__animated wow animate__fadeInUp">
+                            <p class="footer-subheading">Contact</p>
+                                <ul>
+                                    <li>2-N-26, Mahaveer nagar ext. Near Hanuman tempal</li>
+                                    <li>Mob. - 9001381684</li>
+                                    <li>Whatspp - 9001381684</li>
+                                    <li>Mail- collinsKota01@gmail.com </li>
+                                    
+                                </ul>
+                            
+                            </div>
+            </div>
+       </footer>
+        <!-- footer-section -->
+
+    
+    <!-- wow cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+
+<script>
+    $(document).ready(function(){
+            var two = $("#two");
+            two.owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        autoplay:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:3
+            }
+        }
+    })
+})
+</script>
+
+    
+</body>
+</html>

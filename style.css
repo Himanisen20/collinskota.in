@@ -674,8 +674,12 @@ footer .common-text--highlight{
 /* footer-end */
 
 /* responsive part start*/
-
-@media (max-width:1300px){ 
+/* @media (max-width:1300px){
+    
+} */
+@media (max-width:1300px){
+/*   .hero-btn .btn{ background-color: aqua;} */
+  
  .section-hero .hero-heading{font-size: 3.1rem;}
  .section-why--choose .container .choose-left--div{
     width: 23vw;
@@ -686,7 +690,7 @@ footer .common-text--highlight{
     
 
 @media (max-width:1200px){
-
+/*     .hero-btn .btn{ background-color: rgb(142, 245, 121);} */
     .section-hero .hero-heading{font-size: 2.9rem;}
     .section-destination .grid{
         column-gap: 5rem;
@@ -710,7 +714,7 @@ footer .common-text--highlight{
     }
   
   @media (max-width:1150px){
-
+/*     .hero-btn .btn{ background-color: rgb(221, 240, 113);} */
     .container{ max-width:80%;
          padding: 3rem 1rem;}
     
@@ -748,13 +752,16 @@ footer .common-text--highlight{
     .section-why--choose .choose-center--div img{
                 margin-top: 2rem;
                 max-height: 30rem;}
-    .section-why--choose .section-heading,
+               
+         
+
+     .section-why--choose .section-heading,
     .section-para{  margin-left: 6%; } 
    
   }
 
   @media (max-width:1100px){
-
+/*     .hero-btn .btn{ background-color: rgb(240, 143, 113);} */
     .section-hero .grid{
         gap: 4rem;  } 
     .section-why--choose .container{
@@ -788,7 +795,7 @@ footer .common-text--highlight{
 
 
      @media (max-width:1020px){
-
+/*     .hero-btn .btn{ background-color: rgb(36, 226, 163);} */
     .section-hero img{
         height: 45vh;}
     .section-navbar .navbar ul{
@@ -834,14 +841,20 @@ footer .common-text--highlight{
   
 
   @media (max-width:950px){
-
+/*     .hero-btn .btn{ background-color: rgb(95, 84, 245);} */
     .section-navbar img{ width:100px;
         height:50px;
         margin: 3px 0;}
     .section-navbar .navbar ul{
          gap: 1.5rem;
          margin-right: -2rem;
-        }    
+        }
+        /* .section-navbar .container{
+            background-color: rgb(245, 245, 6);
+            margin: 0px auto;
+            justify-content:space-between;
+           } */
+           
     .section-heading{
         font-size: 2.5rem;}
 
@@ -881,7 +894,9 @@ footer .common-text--highlight{
 }
 
  @media (max-width:850px){
-       .section-navbar .navbar ul{
+/*         .hero-btn .btn{
+             background-color: rgb(230, 62, 11);} */
+             .section-navbar .navbar ul{
                 display: flex;
                 gap: 1rem;
                 margin-right: -3rem;
@@ -968,7 +983,7 @@ footer .common-text--highlight{
  }
 
     @media (max-width:750px){
-           
+/*             .hero-btn .btn{ background-color: rgb(232, 84, 245);} */
             .section-hero .hero-heading{font-size: 2rem;}
             .section-hero .hero-subheading{font-size: 1rem;
             margin-top: 4%;}
@@ -1056,16 +1071,20 @@ footer .common-text--highlight{
         }
 
         @media (max-width:650px){
-            
+/*             .hero-btn .btn{ background-color: rgb(105, 2, 2);} */
             .section-hero .hero-heading{font-size: 2rem;}
             .section-hero img{
                 height: 32vh;
-                width: 35vw; } 
+                width: 35vw;
+               
+            } 
             .section-hero .container{
                 display: flex;
                 padding-top: 5rem;
                 flex-direction: column;
-                margin:0rem 2rem; }
+                margin:0rem 2rem;
+                
+            }
             .section-hero-content{
                 align-items: center;
                 text-align: center;
@@ -1137,7 +1156,7 @@ footer .common-text--highlight{
         }
 
         @media (max-width:550px){
-             
+/*              .hero-btn .btn{ background-color: rgb(243, 208, 7); */
                 padding: 0.8rem 2.5rem;}
             .hero-btn .btn:hover{
                 padding: 0.8rem 3.5rem; }

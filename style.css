@@ -1156,7 +1156,8 @@ footer .common-text--highlight{
         }
 
         @media (max-width:550px){
-/*              .hero-btn .btn{ background-color: rgb(243, 208, 7); */
+             .hero-btn .btn{
+/*                      background-color: rgb(243, 208, 7); */
                 padding: 0.8rem 2.5rem;}
             .hero-btn .btn:hover{
                 padding: 0.8rem 3.5rem; }

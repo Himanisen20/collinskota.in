@@ -1198,3 +1198,78 @@ footer .common-text--highlight{
           .section-contact-homepage .btn{
                             padding: 0.5rem 0rem;}
         }
+
+ @media (max-width:500px){
+            /* .hero-btn .btn{ background-color: rgb(32, 13, 201)} */
+            .section-hero img{
+                height: 28vh;
+                width: 35vw;
+                margin-top: -0.6rem;
+              } 
+              footer .container{
+                margin-left: 2rem;  
+              }
+              footer .footer-3--div ul{
+                display: flex;
+                gap: 1.5rem;
+                flex-direction: row;}
+                .section-navbar{
+                width: 100vw;
+           gap: 0px;}
+                .section-navbar #bar{
+                    margin-right:-1rem;
+                }
+                .navbar-brand img{
+                    background-color: beige;
+                    margin-left: 0rem;
+                }
+        }
+        @media (max-width:490px){
+            /* .hero-btn .btn{ background-color: rgb(243, 7, 184);} */
+            .section-hero .hero-heading{font-size: 1.6rem;}
+          
+        }
+        @media (max-width:470px){
+            /* .hero-btn .btn{ background-color: rgb(7, 188, 243);} */
+            html{
+                max-width: 100vw; }
+            .section-destination .container{
+                    margin-left: 8%; }
+            
+             .section-destination .grid-three--cols{                 
+                            grid-template-columns:repeat(1,1fr);}
+            .section-hero .hero-heading{font-size: 1.6rem;}
+            .section-review .btn{
+                width: 35vw;
+                height: fit-content;
+                margin-left: 33%;
+                font-weight: bolder;
+                margin-top: 2.4rem;
+                padding: 1rem 2rem;
+                 }
+    
+        }
+
+        @media (max-width:470px){
+            /* .hero-btn .btn{ background-color: rgb(35, 243, 7);} */
+            footer .container{
+                margin-left: 2rem;  
+              }
+              footer .footer-3--div ul{
+                display: flex;
+                gap: 1rem;
+                flex-direction: row;}
+        }
+        @media (max-width:400px){
+            /* .hero-btn .btn{ background-color: rgb(243, 7, 7);} */
+            .section-hero .hero-heading{font-size: 1.4rem;}
+            .section-review .btn{
+                width: 38vw;
+                height: fit-content;
+                margin-left: 30%;
+                font-weight: bolder;
+                margin-top: 2rem;
+                padding: 1rem 2rem;
+                 }
+        }
+        

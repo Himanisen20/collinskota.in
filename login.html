@@ -1,0 +1,190 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body {
+      font-family: Arial;
+      font-size: 17px;
+      padding: 8px;
+    }
+    .headline{ position: absolute; top: 3%; width: 50%;
+left: 2.5rem;
+background-color: transparent; }
+.headline i{
+  font-size:3rem;
+  background-color: transparent;
+  transition: all 0.2s linear;
+  color: var(--main-color);
+}
+.headline i:hover{
+    color: var(--bnt-hover-bg-color);
+   
+}
+
+ 
+    * {
+      box-sizing: border-box;
+    }
+    .main-2 {
+      display: -ms-flexbox; 
+      display: flex;
+      -ms-flex-wrap: wrap; 
+      flex-wrap: wrap;
+      margin: 0 -16px;
+    }
+     .main-3 {
+      -ms-flex: 50%; 
+      flex: 50%;
+    }
+     
+    .main-3 {
+      padding: 0 16px;
+    }
+    
+    .container {
+      background-color: #f2f2f2;
+      padding: 10px 20px 15px 20px;
+      border: 1px solid lightgrey;
+      border-radius: 3px;
+      
+    }
+    
+    input[type=text] {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    
+    input[type=number] {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    
+    label {
+      margin-bottom: 10px;
+      display: block;
+    }
+    
+    .icon-container {
+      margin-bottom: 20px;
+      padding: 7px 0;
+      font-size: 24px;
+    }
+    
+    .btn {
+      background-color: #04AA6D;
+      color: white;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      width: 100%;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 17px;
+    }
+    
+    .btn:hover {
+      background-color: #45a049;
+    }
+    
+    
+    a {
+      color: #2196F3;
+    }
+    
+    hr {
+      border: 1px solid lightgrey;
+    }
+    
+    span.price {
+      float: right;
+      color: grey;
+    }
+    
+    
+    @media (max-width: 700px) {
+      .main-2 {
+        flex-direction:main-2-reverse;
+      }
+    
+    }
+    
+    </style>
+    </head>
+    <body>
+      
+    
+    <h2>Student  Registration</h2>
+    <div class="headline innerdiv1">
+      <a href="index.html" target="_self">
+          <i class="fa-solid fa-circle-chevron-left img4  animate__animated wow animate__slideInLeft"></i></a>
+      </div>
+    
+        <div class="container">
+          <form action="#">
+    
+         <div class="main-2">
+              <div class="main-3"> 
+                
+                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="your name">
+                <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                <input type="text" id="email" name="email" placeholder="john@example.com">
+                <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                <input type="text" id="adr" name="address" placeholder="Address">
+                <label for="city"><i class="fa fa-institution"></i> City</label>
+                <input type="text" id="city" name="city" placeholder="your city">
+    
+                <div class="main-2">
+                  <div class="main-3">
+                    <label for="state">State</label>
+                    <input type="text" id="state" name="state" placeholder="state">
+                  </div>
+                  <div class="main-3">
+                    <label for="zip">Zip</label>
+                    <input type="text" id="zip" name="zip" placeholder="10001">
+                  </div>
+                </div>
+              </div>
+    
+    
+              <div class="main-3">
+                <label for="cnum">Contact</label>
+                <input type="text" id="cname" name="cardname" placeholder="91-0000000000">
+    
+                <label for="cname">Father Name</label>
+                <input type="text" id="cname" name="cardname" placeholder=" Father name">
+                <label for="ccnum">Father Contact</label>
+                <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                <label for="expmonth">Registration date</label>
+                <input type="text" id="expmonth" name="expmonth" placeholder="DD-MM-Y">
+                <div class="main-2">
+                  <div class="main-3">
+                    <label for="expyear">Old Registration No.</label>
+                    <input type="text" id="expyear" name="expyear" placeholder="2018">
+                  </div>
+                    </div>
+              </div>
+              
+            </div>
+            <label>
+              <input type="checkbox" checked="checked" name="sameadr"> t&c
+            </label>
+            <input type="submit" value="singup" class="btn">
+          </form>
+        </div>
+      </div>
+    </div>
+   
+</body>
+</html>
